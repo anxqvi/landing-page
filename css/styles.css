@@ -156,7 +156,36 @@ body {
 }
 
 .action-container {
-    height: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    height: 100px;
+    width: 990px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 280px;
+}
+
+.action-box-text-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.action-box-text-subtext {
+    font-size: 15px;
+}
+
+.action-box-button {
+    border: solid;
+    border-color: #F9FAF8;
 }
 
 .footer {
