@@ -129,11 +129,13 @@ body {
     color: #1F2937;
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
     margin: 0;
     padding: 30px;
+    flex: auto;
+    height: 500px;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -143,7 +145,7 @@ body {
     font-style: italic;
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 600px;
     flex: auto;
     background-color: #E5E7EB;
 }
